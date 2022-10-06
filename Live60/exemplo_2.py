@@ -9,8 +9,3 @@ while True:
         exit()
     except ZeroDivisionError:
         print('Voce não sabe que não pode dividir por 0?')
-        
-"""
-Usar somente o except, torna uma função genérica, ou seja, qualquer exceção será tratada igualmente.
-Usando diretamente uma exceção, o exception vai tratar somente da exceção especificada.
-"""

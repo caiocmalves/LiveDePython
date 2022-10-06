@@ -1,7 +1,16 @@
 Usar somente o except, torna uma função genérica, ou seja, qualquer exceção será tratada igualmente.
 Usando diretamente uma exceção, o exception vai tratar somente da exceção especificada.
 
-Else:
+else:
 A cláusula else existente no try, será executada caso tudo ocorra com sucesso. 
+O except não tem o else, ou seja, o else só funciona na clausula try.
 
-35:00
+
+finally:
+A cláusula finally, diferente da else, será executada independente da execução dar certo ou não, ou seja, ela sempre será executada.
+
+O que gera uma exceção?
+Para forçar uma exceção você pode usar a instrução raise. Ela é responsável por levantar qualquer tipo de exceção. Seja ela nativa ou criada por você.
+
+Criando as próprias exceções:
+Uma exceção customizada, só precisa herdar de Exception. E uma classe de exceção pode fazer toda e qualquer coisa. Sua instância será retornada no as do except.
