@@ -15,4 +15,21 @@ Na fstring, pode-se chamar métodos dentro da {}
 Pode-se chamar posições de uma lista.
 Diferentemente do format, que pode formatar depois, ou seja, dentro dos parenteses. Na fstring, tem que ser formatado dentro dos {}. Nestes casos, é melhor usar format.
 
-33:21
+--------------------------------------------------------
+Conversões:
+Os valores podem ser convertidos para outros tipos de texto, o que acrescenta coisas no nosso vocabulário de strings.
+!a -> asc
+!r -> repr (representação)
+!s -> string 
+
+---------------------------------------------------------
+O sinal de igual:
+Pode auxiliar em logs e quando estamos tentando debugar algo, nos mostra o nome e o valor da variável.
+
+
+################### MINI LINGUAGEM #######################
+Tudo que faz parte da mini-linguagem é dividido por dois pontos :
+Basicamente, os 3 tópicos mais importantes são alinhamento, preenchimento e tamanho mínimo.
+{:[preenchimento][alinhamento][tamanho]}
+
+1:07:10
