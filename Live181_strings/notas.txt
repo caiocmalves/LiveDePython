@@ -1,0 +1,18 @@
+Tipos de formatação:
+1.   '%s' % (live)                          -> clike
+2.   '{} {} {}'.format(live, de, python)    -> format
+3.   f'{live} {de} {python}'                -> fstring
+
+------------------------------------------------------
+format:
+Elas são posicionais, ou seja, numerando dentro das chaves, podemos trocar ou repetir o argumento.
+Sem numerar, ele vai seguir a ordem.
+Além da numerações, pode-se também, nomear.
+Não pode-se chamar métodos dentro das {}, mas pode chamar dentro do format
+
+fstring:
+Na fstring, pode-se chamar métodos dentro da {}
+Pode-se chamar posições de uma lista.
+Diferentemente do format, que pode formatar depois, ou seja, dentro dos parenteses. Na fstring, tem que ser formatado dentro dos {}. Nestes casos, é melhor usar format.
+
+33:21
