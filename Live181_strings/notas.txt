@@ -32,4 +32,17 @@ Tudo que faz parte da mini-linguagem é dividido por dois pontos :
 Basicamente, os 3 tópicos mais importantes são alinhamento, preenchimento e tamanho mínimo.
 {:[preenchimento][alinhamento][tamanho]}
 
-1:07:10
+Alinhamento:
+Saber onde a string vai se alinhar.
+Usar em conjunto com o tamanho
+< = direita
+> = esquerda
+^ = centralizado
+
+
+##################### NUMEROS ###########################
+{:[sinal][.precisão][tipo]}
+Sâo um caso especial na mini linguagem:
+Troca seu tipo, ajusta aprecisão e mostra os sinais
+
+1:21:42
