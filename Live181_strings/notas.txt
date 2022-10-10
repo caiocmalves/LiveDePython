@@ -45,4 +45,7 @@ Usar em conjunto com o tamanho
 Sâo um caso especial na mini linguagem:
 Troca seu tipo, ajusta aprecisão e mostra os sinais
 
-1:21:42
+É possível alternar entre ponto flutuante, ponto fixo, notação exponencial e porcentagem.
+
+
+## Datas e Horas ##
