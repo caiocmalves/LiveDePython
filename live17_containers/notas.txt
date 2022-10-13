@@ -1,0 +1,44 @@
+Desempacotando:
+x = (1,2,3,4,5)
+
+a*, b, c = x
+(1,2,3) 4 5
+
+a, *b, c = x
+1 (2,3,4) 5
+
+a, b, *c = x
+1 2 (3, 4, 5)
+
+Todos os containers em python são iteráveis:
+string, lista.
+
+Com exceção da string, tudo que é iterável no python, é um container.
+
+Toda vez que precisar iterar e precisar da posição (i), usa-se enumerate:
+ex.:
+for i,e in enumerate([1,2,3]):
+    print(i, e)
+0, 1
+1, 2
+2, 3
+
+LISTAS:
+aceitam todos os tipos de objeto
+
+Métodos:
+append (fila)=> insere um elemento no ultimo lugar da lista
+insert (lista)=> insere um elemento na posição x, por isso, esse método precisa de 2 parâmetros, a posição e o elemento.
+remove => ele não espera uma posição como parâmetro e sim um elemento
+pop (pilha) => tira o ultimo elemento da lista e retorna o elemento retirado. A função pop tb pode receber a posição como parametro e ela elimina o elemento da posição passada. elimina o ultimo se n passar nenhum parametro.
+reverse => reverte as posições da lista, ele vem com inplace, ou seja, as posição revertidas se tornam as posições originais, diferente de usar o slice[::-1] que retorna uma copia invertida.
+a função reversed tb faz o reverse sem inplace -> list(reversed(lista))
+
+
+Biblioteca collections:
+Counter(string): ele conta a quantidade de cada elemento da string (é um tipo de dicionario)
+
+
+
+
+
