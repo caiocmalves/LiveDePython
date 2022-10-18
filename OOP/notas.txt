@@ -1,0 +1,28 @@
+cls -> se refere a classe
+self -> se refere a instancia
+
+
+__init__ -> método inicializador da classe (não é um construtor)
+
+o @classmethod (cls) manipula a abstração do dado (a classe)
+
+tudo o que tiver no "escopo" da classe é compartilhado com todas as instancias.
+
+
+Tipos de métodos:
+1. Métodos de instância:
+    Só funcionam com a classe instanciada
+    Manipulam atributos da instância
+2. Métodos de classe:
+    Funcionam a todo momento, até mesmo na instância
+    Manipulam atributos de classe
+3. Métodos estáticos:
+    Funcionam a todo momento
+    Não interagem com atributos
+4. Métodos abstratos:
+    Dizem a subclasse o que ela deve implementar
+
+Herança
+Superclass é a classe pai, a classe 'principal'
+Subclasse é uma classe herdeira da classe pai, ou seja, ela pega as coisas da Superclass e pode modificar e acrescentar para si. Pode-se ter mais de 1 subclass derivada de uma mesma Superclass.
+Herança multipla, voce consegue herdar 2 tipos de objetos ao mesmo tempo (como no ex_4.py)
