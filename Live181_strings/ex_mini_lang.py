@@ -10,3 +10,6 @@ for nome, idade in zip(nomes, idades):
 for nome, idade in zip(nomes, idades):
     print(f'{nome:>12} {idade:<5}')
 
+
+#o - complementa os espaços restantes dos 30 
+print(f"{'Menu':-^30}")
