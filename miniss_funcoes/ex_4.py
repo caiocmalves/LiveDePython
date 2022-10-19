@@ -26,4 +26,3 @@ def meu_min(seq: Sequence):
 
 def converter_para_reais(valor: Text):
     ...
-    
